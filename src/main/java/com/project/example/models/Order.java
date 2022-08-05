@@ -6,6 +6,10 @@ public class Order {
     private Double amount;
     private Double rate;
 
+    public Order(){
+        super();
+    }
+
     public Order(int id, Double amount, Double rate) {
         this.id = id;
         this.amount = amount;
